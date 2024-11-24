@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.success-container {
+  text-align: center;
+}
+
+.success-card {
+  background: linear-gradient(145deg, #fefefe, #e5e5e5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+  width: 400px;
+  text-align: center;
+}
+
+.icon img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #4caf50;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #555;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.icon img:hover {
+  transform: scale(1.1);
+}
+
+.icon img {
+  transition: all 0.3s ease;
+}
+
+</style>
+<div class="success-container">
+    <div class="success-card">
+        <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Payment Icon">
+        </div>
+        <h1>Payment Successful</h1>
+        <p>Thank you! Your payment has been processed successfully.</p>
+        <p><strong>Order Status:</strong> CONFIRMED</p>
+        <p>You will receive a confirmation email shortly.</p>
+        <button onclick="goToHomepage()">Go to Homepage</button>
+    </div>
+</div>
+<script>
+    function goToHomepage() {
+      window.location.href = "home.html";
+    }
+</script>
+</body>
+</html>

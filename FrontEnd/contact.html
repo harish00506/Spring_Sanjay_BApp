@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftPay - Contact</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Header -->
+    <header class="bg-gray-800 py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-xl font-bold">SwiftPay</h1>
+            <nav>
+                <a href="index.html" class="text-gray-300 mx-4 hover:text-white">Home</a>
+                <a href="features.html" class="text-gray-300 mx-4 hover:text-white">Features</a>
+                <a href="pricing.html" class="text-gray-300 mx-4 hover:text-white">Pricing</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="container mx-auto px-4 mt-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
+        <p class="text-center text-gray-300 mb-6">Have questions? Feel free to reach out!</p>
+        <div class="flex flex-col items-center space-y-4">
+            <div>
+                <i class="fas fa-envelope text-indigo-500"></i>
+                <a href="mailto:info@swiftpay.com" class="text-gray-300 hover:text-white ml-2">info@swiftpay.com</a>
+            </div>
+            <div>
+                <i class="fas fa-phone-alt text-indigo-500"></i>
+                <span class="text-gray-300 ml-2">9353030226</span>
+            </div>
+            <div class="flex space-x-4 mt-4">
+                <a href="https://www.facebook.com/sanjayp.patil.75" target="_blank" class="hover:opacity-80">
+                    <i class="fab fa-facebook-f text-blue-600 text-2xl"></i>
+                </a>
+                <a href="https://www.instagram.com/sanjayppatil14/" target="_blank" class="hover:opacity-80">
+                    <i class="fab fa-instagram text-pink-500 text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1f4bba;
+            text-align: center;
+        }
+        .section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .column {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+        .option {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .icon {
+            width: 40px;
+            height: 40px;
+            background-color: #eaf3ff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #1f4bba;
+            margin-right: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .text {
+            font-size: 16px;
+            color: #333;
+        }
+        .new-label {
+            color: #1f4bba;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+        @media (max-width: 768px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Options</h1>
+        <div class="section">
+            <div class="column">
+                <div class="option">
+                    <div class="icon">P</div>
+                    <div class="text">Payment Aggregator</div>
+                </div>
+                <div class="option">
+                    <div class="icon">G</div>
+                    <div class="text">Payment Gateway</div>
+                </div>
+                <div class="option">
+                    <div class="icon">L</div>
+                    <div class="text">Payment Links</div>
+                </div>
+                <div class="option">
+                    <div class="icon">P</div>
+                    <div class="text">Payment Pages</div>
+                </div>
+                <div class="option">
+                    <div class="icon">B</div>
+                    <div class="text">Payment Buttons</div>
+                </div>
+                <div class="option">
+                    <div class="icon">Q</div>
+                    <div class="text">QR Codes</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="option">
+                    <div class="icon">S</div>
+                    <div class="text">Instant Settlement</div>
+                </div>
+                <div class="option">
+                    <div class="icon">M</div>
+                    <div class="text">Magic Checkout<span class="new-label">NEW</span></div>
+                </div>
+                <div class="option">
+                    <div class="icon">C</div>
+                    <div class="text">Smart Collect</div>
+                </div>
+                <div class="option">
+                    <div class="icon">S</div>
+                    <div class="text">Subscriptions</div>
+                </div>
+                <div class="option">
+                    <div class="icon">I</div>
+                    <div class="text">International Payments</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> -->
