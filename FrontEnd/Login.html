@@ -129,10 +129,15 @@
             <a href="https://www.instagram.com" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
             </a>
+            <a id="google-login" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjTHdnduUYB40YP8sC9rx1RFcQj2i7MLsUGg&s"alt="Google">
+            </a>
         </div>
     </div>
-
-    <!-- Footer -->
-    
+    <script>
+    document.getElementById("google-login").addEventListener("click", function() {
+        window.location.href = "http://localhost:8080/oauth2/authorization/google";
+    });
+</script>
 </body>
 </html>
